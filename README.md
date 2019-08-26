@@ -1,6 +1,6 @@
-# wildboar
+# nuxt29_vuetify_typescript
 
-> simple crm
+> plain setup nuxtjs 2.9 (with vuetify and typescript) project
 
 ## Build Setup
 

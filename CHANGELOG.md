@@ -1,3 +1,9 @@
+## v0.1.3
+* add `@nuxtjs/axios/types`
+* add `ip_address` store for better example
+* change from `test` to `it`
+* add `retryCondition`
+
 ## v0.1.2
 * unlock `typescript` version because it break application
 * correct `sassOptions` for `sass-loader@^8.0.0`

@@ -2,8 +2,10 @@ import { Configuration } from '@nuxt/types';
 
 const ScssSass = (style: 'scss' | 'sass') => ({
     implementation: require('sass'),
-    fiber: require('fibers'),
-    indentedSyntax: style === 'sass',
+    sassOptions: {
+        fiber: require('fibers'),
+        indentedSyntax: style === 'sass',
+    },
 });
 
 const build: Configuration['build'] = {

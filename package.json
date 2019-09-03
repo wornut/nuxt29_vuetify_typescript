@@ -1,6 +1,6 @@
 {
   "name": "nuxt29_vuetify_typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "plain setup nuxtjs 2.9 (with vuetify and typescript) project",
   "author": "kpping",
   "license": "MIT",
@@ -13,30 +13,30 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^0.1.3",
+    "@nuxt/typescript-runtime": "^0.1.4",
     "@nuxtjs/axios": "^5.6.0",
-    "nuxt": "^2.9.1",
-    "nuxt-property-decorator": "^2.3.0"
+    "axios": "0.18.1",
+    "nuxt": "^2.9.2",
+    "nuxt-property-decorator": "^2.4.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.3.3",
-    "@mdi/font": "^4.1.95",
-    "@nuxt/types": "^0.2.5",
-    "@nuxt/typescript-build": "^0.1.11",
+    "@mdi/font": "^4.2.95",
+    "@nuxt/types": "^0.2.6",
+    "@nuxt/typescript-build": "^0.2.0",
     "@nuxtjs/eslint-config": "^1.1.2",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/vuetify": "^1.4.0",
+    "@nuxtjs/vuetify": "^1.6.1",
     "@types/jest": "^24.0.18",
     "@types/node": "^10",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
     "@vue/test-utils": "^1.0.0-beta.29",
-    "axios": "^0.19.0",
     "axios-retry": "^3.1.2",
     "babel-jest": "^24.9.0",
     "cpy-cli": "^2.0.0",
-    "cross-env": "^5.2.0",
-    "eslint": "^6.2.2",
+    "cross-env": "^5.2.1",
+    "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-nuxt": "^0.4.3",
     "eslint-plugin-prettier": "^3.1.0",
@@ -44,8 +44,9 @@
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "sass": "^1.22.10",
-    "sass-loader": "^7.3.1",
+    "sass-loader": "^8.0.0",
+    "typescript": "3.5.3",
     "vue-jest": "^4.0.0-beta.2",
-    "vuetify": "^2.0.10"
+    "vuetify": "^2.0.11"
   }
 }

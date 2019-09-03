@@ -1,13 +1,12 @@
 import { ActionContext, ActionTree } from 'vuex/types';
 import { IpAddressState } from './types';
+import { apiGetIpAddress } from '~/data_services/ip_address';
 
 interface IpAddresssActionContext extends ActionContext<IpAddressState, IpAddressState> {}
 
 export const actions: ActionTree<IpAddressState, IpAddressState> = {
     async getIpAddress({ commit }: IpAddresssActionContext) {
-        const ipAddress = await this.$axios.$get<string>('https://icanhazip.com');
-
-        commit('updateIpAddress', ipAddress);
+        commit('updateIpAddress', await apiGetIpAddress(this.$axios));
     },
 };
 

@@ -1,53 +1,11 @@
 <template>
   <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-      <div class="text-center">
-        <logo class="d-inline-block" />
-        <vuetify-logo class="d-inline-block" />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>
-            Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower
-            developers to create amazing applications.
-          </p>
-          <p>
-            For more information on Vuetify, check out the
-            <a href="https://vuetifyjs.com" target="_blank"> documentation </a>.
-          </p>
-          <p>
-            If you have questions, please join the official
-            <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat"> discord </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a href="https://github.com/vuetifyjs/vuetify/issues" target="_blank" title="contribute"> issue board </a>.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3" />
-          <a href="https://nuxtjs.org/" target="_blank">
-            Nuxt Documentation
-          </a>
-          <br />
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire">
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
+    <v-flex xs12 class="pb-5">
+      <h1 class="underline headline">Hello, World</h1>
+    </v-flex>
+    <v-flex xs12>
+      <NormalLogo class="d-inline-block" />
+      <VuetifyLogo class="d-inline-block" />
     </v-flex>
   </v-layout>
 </template>
@@ -57,9 +15,11 @@ import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component({
   components: {
-    Logo: () => import('~/components/Logo.vue'),
+    NormalLogo: () => import('~/components/NormalLogo.vue'),
     VuetifyLogo: () => import('~/components/VuetifyLogo.vue'),
   },
 })
 export default class IndexPage extends Vue {}
 </script>
+
+<style scoped></style>

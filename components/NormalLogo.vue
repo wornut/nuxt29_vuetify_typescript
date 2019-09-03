@@ -1,12 +1,12 @@
 <template>
-  <v-app><nuxt /></v-app>
+  <img src="/v.png" alt="vuetify logo" />
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component({})
-export default class DefaultLayout extends Vue {}
+export default class Logo extends Vue {}
 </script>
 
 <style scoped></style>

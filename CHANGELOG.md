@@ -1,3 +1,6 @@
+## v0.1.4
+* use `data_services` layer
+
 ## v0.1.3
 * add `@nuxtjs/axios/types`
 * add `ip_address` store for better example

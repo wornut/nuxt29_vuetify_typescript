@@ -1,6 +1,6 @@
 {
   "name": "nuxt29_vuetify_typescript",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "plain setup nuxtjs 2.9 (with vuetify and typescript) project",
   "author": "kpping",
   "license": "MIT",

@@ -1,7 +1,8 @@
 // https://github.com/nuxt-community/vuetify-module
 
 export default {
-    customVariables: ['~/configs/vuetify/var.sass'],
+    customVariables: ['~/configs/vuetify/var.scss'],
+    treeShake: true,
     defaultAssets: {
         font: true,
         icons: 'mdi',

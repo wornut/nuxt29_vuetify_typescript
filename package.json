@@ -5,6 +5,7 @@
   "author": "kpping",
   "license": "MIT",
   "scripts": {
+    "analysis": "yarn cp:localhost && nuxt-ts build -a",
     "cp:localhost": "cpy env/localhost.ts configs --rename=env.ts",
     "dev": "cross-env HOST=0.0.0.0 PORT=8080 nuxt-ts",
     "dev:localhost": "yarn cp:localhost && yarn dev",

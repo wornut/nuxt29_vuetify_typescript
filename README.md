@@ -2,6 +2,10 @@
 
 > plain setup nuxtjs 2.9 (with vuetify and typescript) project
 
+## Ref
+
+https://medium.com/@Al_un/nuxt-vuex-jest-tested-powered-by-typescript-70441600ef39
+
 ## Build Setup
 
 ``` bash

@@ -1,6 +1,6 @@
 {
   "name": "nuxt29_vuetify_typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "plain setup nuxtjs 2.9 (with vuetify and typescript) project",
   "author": "kpping",
   "license": "MIT",
@@ -36,6 +36,7 @@
     "babel-jest": "^24.9.0",
     "cpy-cli": "^2.0.0",
     "cross-env": "^5.2.1",
+    "deepmerge": "^4.0.0",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-nuxt": "^0.4.3",
@@ -45,7 +46,6 @@
     "prettier": "^1.18.2",
     "sass": "^1.22.10",
     "sass-loader": "^8.0.0",
-    "typescript": "3.5.3",
     "vue-jest": "^4.0.0-beta.2",
     "vuetify": "^2.0.11"
   }

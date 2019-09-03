@@ -2,7 +2,7 @@ import { shallowMount } from '@vue/test-utils';
 import NormalLogo from '~/components/NormalLogo.vue';
 
 describe('Logo', () => {
-    test('is a Vue instance', () => {
+    it('should be a Vue instance', () => {
         const wrapper = shallowMount(NormalLogo);
 
         expect(wrapper.isVueInstance()).toBeTruthy();

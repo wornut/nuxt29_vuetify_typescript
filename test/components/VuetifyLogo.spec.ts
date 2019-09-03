@@ -9,7 +9,7 @@ localVue.use(Vuetify);
 const wrapper = mount(VuetifyLogo, { localVue });
 
 describe('VuetifyLogo', () => {
-    test('is a Vue instance', () => {
+    it('should be a Vue instance', () => {
         expect(wrapper.isVueInstance()).toBeTruthy();
     });
 
